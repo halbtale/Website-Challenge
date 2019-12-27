@@ -4,6 +4,6 @@
     display: grid;
     grid-template-rows: 35% auto 20%;
     @media screen and (max-width: 800px) {
-        grid-template-rows: 20% auto 10%;
+        grid-template-rows: 20% auto auto;
     }
 }
