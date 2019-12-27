@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 35% auto 20%; }
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg.jpeg");
+  background-size: cover;
+  padding: 0 10%;
+  display: flex;
+  align-items: center; }
+  .header__title {
+    color: #f2f2f2;
+    font-family: "Saira Stencil One", cursive;
+    font-size: 5.5rem; }
+
+.content {
+  padding-top: 14%;
+  padding-left: 19%;
+  padding-right: 19%;
+  padding-bottom: 20%; }
+  .content__paragraph {
+    font-size: 2.5rem; }
+    .content__paragraph:not(:last-child) {
+      margin-bottom: 4rem; }
+
+.footer {
+  background-color: #152837;
+  padding: 6% 10%;
+  display: flex;
+  color: white;
+  font-size: 2rem; }
+  .footer > * {
+    border-top: 1px solid #707070;
+    flex-grow: 1;
+    padding-top: 4%; }
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; }
+  .menu__item:not(:last-child) {
+    margin-right: 5rem; }

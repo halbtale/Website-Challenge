@@ -1,0 +1,23 @@
+.footer {
+    background-color: $footer_color;
+    padding: 6% 10%;
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    & > * {
+        border-top: 1px solid $footer_hr_color;
+        flex-grow: 1;
+        padding-top: 4%;
+    }
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    &__item {
+        &:not(:last-child) {
+            margin-right: 5rem;
+        }
+    }
+}
