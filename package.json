@@ -20,14 +20,14 @@
     "devDependencies": {
         "@babel/core": "^7.4.4",
         "@babel/preset-env": "^7.4.4",
-        "babel-loader": "^8.0.5",
+        "babel-loader": "^8.3.0",
         "autoprefixer": "^7.1.4",
         "concat": "^1.0.3",
         "node-sass": "^7.0.0",
         "npm-run-all": "^4.1.1",
         "postcss-cli": "^6.1.2",
-        "webpack": "^4.30.0",
-        "webpack-cli": "^3.3.2"
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1"
     },
     "dependencies": {
         "@babel/polyfill": "^7.4.4"
